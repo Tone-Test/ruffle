@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>SWF Game Loader</title>
+    <link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>
+    <h1>SWF Game Loader</h1>
+    <input type="file" id="file-input" accept=".swf">
+    <label for="file-input">Select SWF File</label>
+    <div id="preloaded-games">
+        <button data-url="game1.swf">Game 1</button>
+        <button data-url="game2.swf">Game 2</button>
+        <!-- Add more buttons for pre-loaded games here -->
+    </div>
+    <div id="game-container">
+        <div id="ruffle-player"></div>
+    </div>
+    <script src="https://happygamer1450.github.io/Ruffle-Embedded/ruffle/ruffle.js"></script>
+    <script src="app.js"></script>
+</body>
+</html>
